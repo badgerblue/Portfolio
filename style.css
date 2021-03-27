@@ -1,0 +1,12 @@
+div.container {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+div.container img {
+    margin: 0;
+    max-width: 100%;
+    height: auto; }
+body{
+    background-color: orange;
+}
