@@ -1,23 +1,102 @@
 <!doctype html>
-
-<html lang="en">
+<html>
+  <div class="flex flex-col min-h-screen">
 <head>
-  <meta charset="utf-8">
-
-  <title>Robby Wilcox | Portfolio</title>
-  <meta name="description" content="A portfolio for Robby Wilcox">
-  <meta name="author" content="Robby Wilcox">
-
-  <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ... -->
 </head>
-
-<body>
-    <div class="container">
-        <a href="mailto:contact@robbywilcox.com"><img src="hireme.gif"></a>
+<body class="bg-purple-500">
+  <div class="flex flex-col flex-1">
+    <div class="py-8 px-8 mt-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 ">
+      <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0 " src="assets/me.jpg" alt="Robby">
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            Robby Wilcox
+          </p>
+          <p class="text-gray-500 font-medium">
+            Analyst, Admin, Developer
+          </p>
+        </div>
+        <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Email</button>
     </div>
-    <script>
-        console.log("This is just a temporary page. I'm sorry if you found this.");
-    </script>
+  </div>
+  <div class="py-8 px-8 mt-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Systems Analyst <span class="text-purple-500">- Current</span>
+        </p>
+        <p class="text-gray-500 font-medium">
+          Barton Community College
+        </p>
+        <hr>
+        <p class="text-purple-700 font-medium">
+          Frontline IT grunt with a knack for coming up with innovative solutions for cheap.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="py-8 px-8 mt-2 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Software Developer 
+        </p>
+        <p class="text-gray-500 font-medium">
+          INA Alert
+        </p>
+        <hr>
+        <p class="text-purple-700 font-medium">
+          I built a small business an internal website to visualize and manage customer data and helpdesk tickets.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="py-8 px-8 mt-2 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Jr. Software Developer
+        </p>
+        <p class="text-gray-500 font-medium">
+          Revlogical
+        </p>
+        <hr>
+        <p class="text-purple-700 font-medium">
+          Baby developer that helped with point of sale and warehouse management software.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="py-8 px-8 mt-2 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Solution Center Intern
+        </p>
+        <p class="text-gray-500 font-medium">
+          Community America Credit Union
+        </p>
+        <hr>
+        <p class="text-purple-700 font-medium">
+          My introduction to working in the IT and tech world. I imaged and deployed a massive amount of computers and learned the fundementals of repair and quality service.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <!-- ... -->
+  
 </body>
+<footer>
+  <div class="bottom-0 mt-8 left-0 bg-gray-100 p-3 rounded-t-lg w-full text-center text-gray-500">
+    <p>made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> by Robby Wilcox</p>
+  </div>
+</footer>
+</div>
 </html>
