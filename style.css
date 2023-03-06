@@ -83,3 +83,27 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.custom-head{
+  background-color: #01ff70;
+  border-color: #01ff70;
+}
+
+.custom-head:a{
+  color: #001f3f;
+}
+
+.custom-head:a:hover{
+  color: #001f3f;
+}
+
+.text-blue{
+  color: #001f3f;
+}
+
+.text-blue:hover,
+.text-blue:focus,
+.text-blue:active
+{
+  color: #001f3f86;
+}
