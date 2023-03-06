@@ -1,12 +1,85 @@
-div.container {
-    height: 10em;
+/* Change the background color of the body to navy blue */
+body {
+    background-color: #001f3f;
+  }
+  
+  /* Change the color of text to lime green */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  button {
+    color: #01ff70;
+  }
+  
+  /* Change the color of links to lime green */
+  a {
+    color: #01ff70;
+  }
+  
+  /* Change the color of links on hover to a darker shade of lime green */
+  a:hover {
+    color: #00e676;
+  }
+  
+  /* Change the background color of primary buttons to lime green */
+  .btn-primary {
+    background-color: #01ff70;
+    border-color: #01ff70;
+  }
+  
+  /* Change the color of text on primary buttons to navy blue */
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    color: #001f3f;
+  }
+  
+  /* Change the background color of secondary buttons to navy blue */
+  .btn-secondary {
+    background-color: #001f3f;
+    border-color: #001f3f;
+  }
+  
+  /* Change the color of text on secondary buttons to lime green */
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus,
+  .btn-secondary:active,
+  .btn-secondary.active,
+  .open .dropdown-toggle.btn-secondary {
+    color: #01ff70;
+  }
+  
+  /* Change the background color of the navbar to navy blue */
+  .navbar {
+    background-color: #01ff70;
+    border-color: #01ff70;
+  }
+  
+  /* Change the color of text in the navbar to lime green */
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #001f3f;
+  }
+  
+  /* Change the color of links in the navbar to lime green on hover */
+  .navbar-nav .nav-link:hover {
+    color: #001f3f86;
+  }
+  
+  .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center }
-div.container img {
-    margin: 0;
-    max-width: 100%;
-    height: auto; }
-body{
-    background-color: orange;
+    height: 100vh;
 }

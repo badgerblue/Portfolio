@@ -1,93 +1,51 @@
-<!doctype html>
-<html>
-  <div class="flex flex-col min-h-screen">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robby Wilcox - Portfolio</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- ... -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bootstrap Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Define a custom font that is similar to SF Pro */
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+    
+    /* Use the custom font for all text on the page */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
 </head>
-<body class="bg-purple-500">
-  <div class="flex flex-col flex-1">
-    <div class="py-8 px-8 mt-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 ">
-      <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0 " src="assets/me.jpg" alt="Robby">
-      <div class="text-center space-y-2 sm:text-left">
-        <div class="space-y-0.5">
-          <p class="text-lg text-black font-semibold">
-            Robby Wilcox
-          </p>
-          <p class="text-gray-500 font-medium">
-            Analyst, Admin, Developer
-          </p>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          RobbyWilcox
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Class Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <form target="_blank" action="https://www.linkedin.com/in/robbyw82/">
-          <input class="px-4 py-1 text-sm bg-white text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2" type="submit" value="Contact Me" />
-        </form>
-    </div>
-  </div>
-  <div class="py-8 px-8 mt-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-    <div class="text-center space-y-2 sm:text-left">
-      <div class="space-y-0.5">
-        <p class="text-lg text-black font-semibold">
-          Systems Analyst <span class="text-purple-600">- Current</span>
-        </p>
-        <p class="text-gray-500 font-medium">
-          Barton Community College
-        </p>
-        <hr>
-        <p class="text-purple-700 font-medium">
-          Frontline IT worker with a knack for coming up with innovative solutions for cheap.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="py-8 px-8 mt-2 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-    <div class="text-center space-y-2 sm:text-left">
-      <div class="space-y-0.5">
-        <p class="text-lg text-black font-semibold">
-          Software Developer 
-        </p>
-        <p class="text-gray-500 font-medium">
-          INA Alert
-        </p>
-        <hr>
-        <p class="text-purple-700 font-medium">
-          I built a small business an internal website to visualize and manage customer data and helpdesk tickets.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="py-8 px-8 mt-2 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-    <div class="text-center space-y-2 sm:text-left">
-      <div class="space-y-0.5">
-        <p class="text-lg text-black font-semibold">
-          Solution Center Intern
-        </p>
-        <p class="text-gray-500 font-medium">
-          Community America Credit Union
-        </p>
-        <hr>
-        <p class="text-purple-700 font-medium">
-          My introduction to working in the IT and tech world. I imaged and deployed a massive amount of computers and learned the fundementals of repair and quality service.
-        </p>
-      </div>
-    </div>
-  </div>
-  
+      </nav>
+  <div class="container">
+    <h1>PowerPoint</h1>
+    <p>Please click <a href="https://docs.google.com/presentation/d/1Mz4hxupz6k3zJ1VN1AU8BQEOc8ibhyGjwYwCbLjPPQM/edit?usp=sharing">here</a> to view the powerpoint on web development.</p>
+    <h1>Learn Online</h1>
+    <p>Please click <a href="https://www.youtube.com/@DaveGrayTeachesCode/featured">here</a> to learn Web Development from a good source on youtube.</p>
 </div>
-  <!-- ... -->
-  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
-<footer>
-  <div class="bottom-0 mt-8 left-0 bg-gray-100 p-3 rounded-t-lg w-full text-center text-gray-500">
-    <p>made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> by Robby Wilcox</p>
-  </div>
-</footer>
-</div>
 </html>
