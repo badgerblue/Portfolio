@@ -1,43 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robby Wilcox</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="logo.svg">
-  <style>
-    /* Define a custom font that is similar to SF Pro */
-    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-    
-    /* Use the custom font for all text on the page */
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start custom-head">
-          <a class="navbar-brand" href="#">
-            <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-          </a>
-  
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a class="nav-link px-2 text-blue" href="https://robbywilcox.com">Class Info</a></li>
-      <li><a class="nav-link px-2 text-blue" href="https://robbywilcox.com/contact">Contact</a></li>
-          </ul>
-        </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robby Wilcox - IT Professional</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Create this file for custom styling -->
+    <style>
+        /* Custom CSS for adding some color */
+        body {
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #343a40; /* Dark gray background for the navigation bar */
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff; /* White color for the navigation toggle icon */
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* White color for navigation links */
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #17a2b8; /* Change color on hover */
+        }
+    </style>
 </head>
 <body>
-    
-  <div class="container">
-    <h1>PowerPoint</h1>
-    <p>Please click <a href="https://docs.google.com/presentation/d/1Mz4hxupz6k3zJ1VN1AU8BQEOc8ibhyGjwYwCbLjPPQM/edit?usp=sharing">here</a> to view the powerpoint on web development.</p>
-    <h1>Learn Online</h1>
-    <p>Please click <a href="https://www.youtube.com/@DaveGrayTeachesCode/featured">here</a> to learn Web Development from a good source on youtube.</p>
-</div>
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Robby Wilcox</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="portrait.jpg" alt="John Doe" class="img-fluid rounded-circle" width="200">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h2>About Me</h2>
+                    <p>I am a highly skilled IT professional with a passion for solving complex problems and a track record of delivering top-notch solutions. My expertise includes:</p>
+                    <ul>
+                        <li>Server Administration</li>
+                        <li>System Architecture</li>
+                        <li>Process Automation</li>
+                        <li>Software Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Coordinator of Enterprise Applications</h3>
+                <p>Barton Community College</p>
+                <p>May 2023 - Present</p>
+                <ul>
+                    <li>Managed a team of network engineers.</li>
+                    <li>Designed and implemented a secure and scalable network infrastructure.</li>
+                    <li>Monitored and maintained network performance and security.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Systems Analyst</h3>
+                <p>Barton Community College</p>
+                <p>March 2021 - May 2023</p>
+                <ul>
+                    <li>Developed and maintained client websites.</li>
+                    <li>Designed responsive web interfaces.</li>
+                    <li>Worked closely with clients to gather requirements and deliver tailored solutions.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Master of Science in Information Technology Management</h3>
+                <p>Western Governors University</p>
+                <p>Currently Enrolled</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Fort Hays State University</p>
+                <p>Graduated: December 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch with me, please feel free to reach out via email or LinkedIn:</p>
+            <ul>
+                <li>Email: contact@robbywilcox.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/robbyw82" target="_blank">linkedin.com/in/robbyw82</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2023 Robby Wilcox</p>
+    </footer>
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
